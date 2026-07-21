@@ -1,0 +1,66 @@
+[
+  {
+    "dataset": "ANATEL (Real Network)",
+    "models": {
+      "MLP_FP32": {
+        "accuracy": 0.880137,
+        "size_kb": 29.64,
+        "per_sample_ms": 0.1236,
+        "per_batch_ms": 0.1172
+      },
+      "MLP_INT8": {
+        "accuracy": 0.866438,
+        "size_kb": 12.8,
+        "accuracy_drop_pct": 1.3699,
+        "size_reduction_pct": 56.81,
+        "speedup_vs_fp32": 0.19,
+        "per_sample_ms": 0.6505,
+        "per_batch_ms": 0.7536
+      },
+      "RandomForest": {
+        "accuracy": 0.886986,
+        "size_kb": 1323.82,
+        "per_sample_ms": 29.7287,
+        "per_batch_ms": 29.8901
+      },
+      "DecisionTree_Pruned": {
+        "accuracy": 0.828767,
+        "size_kb": 9.76,
+        "per_sample_ms": 0.0963,
+        "per_batch_ms": 0.1089
+      }
+    }
+  },
+  {
+    "dataset": "Simulated (ns-3)",
+    "models": {
+      "MLP_FP32": {
+        "accuracy": 0.929936,
+        "size_kb": 29.64,
+        "per_sample_ms": 0.1087,
+        "per_batch_ms": 0.1245
+      },
+      "MLP_INT8": {
+        "accuracy": 0.923567,
+        "size_kb": 12.8,
+        "accuracy_drop_pct": 0.6369,
+        "size_reduction_pct": 56.81,
+        "speedup_vs_fp32": 0.174,
+        "per_sample_ms": 0.6238,
+        "per_batch_ms": 0.7042
+      },
+      "RandomForest": {
+        "accuracy": 0.93758,
+        "size_kb": 3766.25,
+        "per_sample_ms": 29.2606,
+        "per_batch_ms": 30.1412
+      },
+      "DecisionTree_Pruned": {
+        "accuracy": 0.829299,
+        "size_kb": 15.85,
+        "per_sample_ms": 0.0965,
+        "per_batch_ms": 0.1036
+      }
+    }
+  }
+]
