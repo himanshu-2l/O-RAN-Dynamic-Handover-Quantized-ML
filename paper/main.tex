@@ -301,11 +301,11 @@ The resulting test statistic $t = 18.42$ yields a $p$-value of $p = 1.14 \times 
 \subsection{Pillar 3: Edge TinyML Quantization \& Latency Profiling}
 Table~\ref{tab:pillar3_results} and Fig.~\ref{fig:tinyml_pareto} benchmark candidate architectures for Near-RT RIC edge deployment.
 
-\begin{table*}[t]
+\begin{table}[t]
 \caption{Pillar 3: TinyML Quantization \& Latency Benchmark}
 \label{tab:pillar3_results}
 \centering
-\resizebox{\textwidth}{!}{%
+\resizebox{\columnwidth}{!}{%
 \begin{tabular}{lcccc}
 \toprule
 \textbf{Dataset / Model} & \textbf{Acc. (\%)} & \textbf{RAM (KB)} & \textbf{Sample (ms)} & \textbf{Batch (ms)} \\
@@ -324,7 +324,7 @@ DT Pruned ($depth=8$) & 82.93 & \textbf{15.85} & \textbf{0.0965} & \textbf{0.103
 \bottomrule
 \end{tabular}%
 }
-\end{table*}
+\end{table}
 
 \begin{figure}[t]
 \centering
