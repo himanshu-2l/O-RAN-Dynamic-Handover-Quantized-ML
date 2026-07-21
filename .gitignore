@@ -1,0 +1,14 @@
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# Python cache & temp scripts
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+create_notebooks.py
