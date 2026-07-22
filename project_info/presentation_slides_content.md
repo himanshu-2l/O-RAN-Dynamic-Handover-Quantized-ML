@@ -7,8 +7,8 @@ This document contains slide-by-slide text content that you can copy and paste d
 ## 🖥️ Slide 1: Title Slide
 * **Title:** Physics-Informed Dynamic Thresholding and TinyML Quantization for Low-Latency 5G O-RAN Handover Optimization
 * **Subtitle:** xApp Design for Near-Real-Time RIC Controllers
-* **Presenter:** Himanshu Kumar
-* **Affiliation:** Department of Electronics & Communication Engineering
+* **Presenter:** Himanshu Rathore
+* **Affiliation:** Department of Computer Science and Engineering
 
 ---
 
